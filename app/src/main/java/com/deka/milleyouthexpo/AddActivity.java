@@ -135,7 +135,7 @@ public class AddActivity extends AppCompatActivity {
                 if(awesomeValidation.validate()){
                     MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(AddActivity.this);
                     builder.setIcon(R.drawable.warning);
-                    builder.setTitle("Daftarkan");
+                    builder.setTitle("Form Daftar");
                     builder.setMessage(
                             "Apakah anda sudah yakin dengan data anda ?\n\n" +
                                     "Nama Lengkap : \n" + namaLengkap + "\n\n" +

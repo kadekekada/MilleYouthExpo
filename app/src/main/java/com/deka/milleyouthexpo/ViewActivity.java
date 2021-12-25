@@ -71,7 +71,7 @@ public class ViewActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Toast.makeText(this,"Menghancurkan activity", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Activity Telah Berhenti", Toast.LENGTH_SHORT).show();
     }
 
 

@@ -91,21 +91,21 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Selamat datang", Toast.LENGTH_LONG).show();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Toast.makeText(this, "Halo", Toast.LENGTH_LONG).show();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Toast.makeText(this, "Jangan lupa kembali lagi", Toast.LENGTH_LONG).show();
-    }
-
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        Toast.makeText(this, "Halo", Toast.LENGTH_LONG).show();
+//    }
+//
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//        Toast.makeText(this, "Jangan lupa kembali lagi", Toast.LENGTH_LONG).show();
+//    }
+//
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Toast.makeText(this, "Sampai berjumpa lagi nanti", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Terima Kasih, Sampai Jumpa", Toast.LENGTH_LONG).show();
     }
 }

@@ -19,12 +19,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/roboto_black"
+            android:fontFamily="@font/mbold"
             android:text="Ubah Data Peserta"
             android:textAlignment="center"
             android:textColor="?attr/actionMenuTextColor"
-            android:textSize="80px"
-            android:textStyle="bold" />
+            android:textSize="80px" />
     </LinearLayout>
 
     <ScrollView
@@ -56,7 +55,7 @@
                     android:id="@+id/input_namalengkap"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_medium"
+                    android:fontFamily="@font/mmedium"
                     android:textSize="20sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -75,7 +74,7 @@
                     android:id="@+id/input_tgl_lahir"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_medium"
+                    android:fontFamily="@font/mmedium"
                     android:textSize="20sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -94,10 +93,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/rubik_medium"
+                    android:fontFamily="@font/mbold"
                     android:text="Umur "
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <SeekBar
                     android:id="@+id/seekbar"
@@ -118,12 +116,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/grp_seekbar"
                 android:layout_marginLeft="10dp"
-                android:fontFamily="@font/rubik_medium"
+                android:fontFamily="@font/mbold"
                 android:labelFor="@+id/radioGroupGender"
                 android:text="Jenis Kelamin"
                 android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textSize="20sp" />
 
             <RadioGroup
                 android:id="@+id/radioGroupGender"
@@ -140,7 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:fontFamily="@font/rubik"
+                    android:fontFamily="@font/mmedium"
                     android:text="Laki-Laki"
                     android:textSize="20sp"
                     style="@style/Widget.MaterialComponents.CompoundButton.RadioButton" />
@@ -150,7 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:fontFamily="@font/rubik"
+                    android:fontFamily="@font/mmedium"
                     android:text="Perempuan"
                     android:textSize="20sp"
                     style="@style/Widget.MaterialComponents.CompoundButton.RadioButton"/>
@@ -170,11 +167,10 @@
                     android:id="@+id/lbl_expo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/rubik_medium"
+                    android:fontFamily="@font/mbold"
                     android:text="Jenis Expo"
                     android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
                 <CheckBox
                     android:id="@+id/kerajinan"
@@ -182,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/lbl_expo"
                     android:checked="false"
-                    android:fontFamily="@font/rubik"
+                    android:fontFamily="@font/mmedium"
                     android:text="Kerajinan"
                     android:textSize="20sp" />
 
@@ -193,7 +189,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/kerajinan"
                     android:checked="false"
-                    android:fontFamily="@font/rubik"
+                    android:fontFamily="@font/mmedium"
                     android:text="Teknologi"
                     android:textSize="20sp" />
 
@@ -215,6 +211,7 @@
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textSize="25sp"
+                android:fontFamily="@font/mmedium"
                 android:backgroundTint="@color/design_default_color_primary"/>
 
         </RelativeLayout>

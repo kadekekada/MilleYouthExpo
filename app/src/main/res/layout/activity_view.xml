@@ -20,12 +20,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/roboto_black"
+            android:fontFamily="@font/mbold"
             android:text="Detail Data Peserta"
             android:textAlignment="center"
             android:textColor="?attr/actionMenuTextColor"
-            android:textSize="80px"
-            android:textStyle="bold" />
+            android:textSize="80px" />
     </LinearLayout>
 
     <ScrollView
@@ -48,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:labelFor="@+id/isi_namalengkap"
                 android:textColor="?attr/actionMenuTextColor"
                 android:text="Nama Lengkap :"
@@ -62,7 +61,7 @@
                 android:layout_below="@+id/lbl_namalengkap"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:textSize="20sp" />
 
@@ -73,7 +72,7 @@
                 android:layout_below="@+id/isi_namalengkap"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:labelFor="@+id/isi_tgl_lahir"
                 android:text="Tanggal Lahir : "
@@ -87,7 +86,7 @@
                 android:layout_below="@+id/lbl_tgl_lahir"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:textSize="20sp" />
 
@@ -98,7 +97,7 @@
                 android:layout_below="@+id/isi_tgl_lahir"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:labelFor="@+id/isi_umur"
                 android:text="Umur : "
@@ -112,7 +111,7 @@
                 android:layout_below="@+id/lbl_umur"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:textSize="20sp" />
 
@@ -123,7 +122,7 @@
                 android:layout_below="@+id/isi_umur"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:labelFor="@+id/isi_gender"
                 android:text="Jenis Kelamin :"
@@ -137,7 +136,7 @@
                 android:layout_below="@+id/lbl_gender"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:textSize="20sp" />
 
@@ -148,7 +147,7 @@
                 android:layout_below="@+id/isi_gender"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:labelFor="@+id/isi_expo"
                 android:text="Jenis Expo : "
                 android:textColor="?attr/actionMenuTextColor"
@@ -162,7 +161,7 @@
                 android:layout_below="@+id/lbl_expo"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
-                android:fontFamily="@font/rubik"
+                android:fontFamily="@font/mmedium"
                 android:textColor="?attr/actionMenuTextColor"
                 android:textSize="20sp" />
 

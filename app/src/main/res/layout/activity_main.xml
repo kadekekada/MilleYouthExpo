@@ -26,12 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/roboto_black"
+            android:fontFamily="@font/mbold"
             android:text="Peserta Expo"
             android:textAlignment="center"
             android:textColor="?attr/actionMenuTextColor"
-            android:textSize="80px"
-            android:textStyle="bold" />
+            android:textSize="80px" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
